@@ -1,0 +1,14 @@
+# Real DB credentials — never commit. Use config.example.php as the template.
+config.php
+
+# Uploaded student photos (user data, not source code).
+st_image/*
+!st_image/.gitkeep
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
